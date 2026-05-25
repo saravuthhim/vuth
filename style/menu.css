@@ -1,0 +1,160 @@
+/* header */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .card {
+    padding: 5px;
+}
+
+/* contaner */
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 90.5%;
+    margin-left: 80px;
+
+
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    gap: 45px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.menu li a i {
+    padding: 5px;
+    margin-right: 5px;
+    color: gray;
+}
+
+/* logo */
+.logo img {
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* banner */
+.banner img {
+    margin-left: 85px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10px;
+}
+
+/* category */
+.category {
+    display: flex;
+    width: 90.5%;
+    margin-left: 80px;
+}
+
+.category .card {
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.category .card img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.category .card p {
+    text-align: center;
+}
+
+.category .card:hover {
+    border: 1px solid blue;
+}
+/* product */
+.product{
+    display: flex;
+    width: 100%;
+}
+.product .card{
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 5px;
+    height: 440px;
+    position: relative;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.card p{
+    text-align: center;
+}
+.card h1{
+    text-align: center;
+    color: red;
+}
+.card h6{
+    text-align: justify;
+    padding: 5px;
+}
+.card .icon{
+    color: gold;
+    margin-left: 110px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.card .li{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: orange;
+    font-size: 20px;
+}
